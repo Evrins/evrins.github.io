@@ -86,6 +86,9 @@ var FlyingStone;
             var info = new StoneInfo(genRandomStartPoint(), genRandomEndPoint(), genRandomStartTime());
             stoneInfoList.push(info);
         }
+        window.addEventListener('resize', function (evt) {
+            engine.resize();
+        });
         canvas.addEventListener('pointerdown', function (evt) {
             evt.preventDefault();
             touchStartPoint = new BABYLON.Vector2(evt.x, evt.y);
