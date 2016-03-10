@@ -1,1 +1,1 @@
-This is a demo project for animation book project.
+This is a demo project for Animation Book Project
