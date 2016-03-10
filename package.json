@@ -1,16 +1,15 @@
 {
-    "name": "stone_fly_to_me",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "http-server -p 5000 & tsc --watch "
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "babylonjs": "^2.3.0",
-        "bootstrap": "^3.3.6"
-    }
+  "name": "stone_fly_to_me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "http-server -p 5000 & tsc --watch "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babylonjs": "^2.3.0"
+  }
 }
