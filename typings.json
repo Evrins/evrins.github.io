@@ -1,0 +1,7 @@
+{
+  "dependencies": {},
+  "devDependencies": {},
+  "ambientDependencies": {
+    "babylon": "github:DefinitelyTyped/DefinitelyTyped/babylonjs/babylon.d.ts#15502fe8e304c9a26fb2d5086a091ebda07c5aee"
+  }
+}
