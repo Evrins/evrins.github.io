@@ -215,7 +215,6 @@ canvas.addEventListener('pointermove', function(evt) {
         camera.position = new BABYLON.Vector3(camera.position.x, cameraY, cameraZ);
         camera.setTarget(new BABYLON.Vector3(0, cameraY, cameraZ));
     }
-    console.log(scene.activeCamera.position);
 });
 
 init();
