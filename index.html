@@ -1,14 +1,39 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-    <meta charset="UTF-8">
+    <meat http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+    />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <title>Stone Fly to Me</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .full-screen {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
     <script src="pep.min.js"></script>
     <script src="babylon.js"></script>
 </head>
 
-<body style="width: 100%;height: 100%;" onload="FlyingStone.start()">
-    <div>
+<body onload="FlyingStone.start()">
+    <div class="full-screen">
         <div id="fps" style="
         position: absolute;
         right: 20px;
@@ -16,8 +41,8 @@
         font-size: 20px;
         color: balck;
         "></div>
-        <div touch-action="none">
-            <canvas id="stone" style="width: 100%; height: 100%"></canvas>
+        <div touch-action="none" class="full-screen">
+            <canvas id="stone" class="full-screen"></canvas>
         </div>
     </div>
     </div>
